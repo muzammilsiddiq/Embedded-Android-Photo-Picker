@@ -12,6 +12,9 @@ composeBom = "2024.09.00"
 koin-bom = "4.1.1"
 appcompat = "1.7.1"
 coroutines = "1.7.3"
+photopicker-compose = "1.0.0-alpha01"
+coil = "2.5.0"
+
 
 [libraries]
 
@@ -25,6 +28,8 @@ androidx-activity-compose = { group = "androidx.activity", name = "activity-comp
 androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
 coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
 appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+photopicker-compose = { group = "androidx.photopicker", name = "photopicker-compose", version.ref = "photopicker-compose" }
+coil = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil" }
 
 # UI
 androidx-ui = { group = "androidx.compose.ui", name = "ui" }
